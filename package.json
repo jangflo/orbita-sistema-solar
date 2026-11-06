@@ -1,0 +1,11 @@
+{
+  "name": "orbita-sistema-solar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Atlas interactivo del sistema solar en 3D.",
+  "scripts": {
+    "start": "python3 -m http.server 4317 --bind 127.0.0.1",
+    "check": "node --check app.js && node --check data.js"
+  }
+}
